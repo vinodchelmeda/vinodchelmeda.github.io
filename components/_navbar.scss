@@ -8,7 +8,7 @@
 
 .navbar{
     @extend %flex-layout;
-    padding: $base-padding $base-padding * 2;
+    padding: $base-padding / 1.8  $base-padding * 2;
     @include box-shadow(1px, 1px, 3px, 1px, $gray-300);
     .container{
         @extend %flex-layout;

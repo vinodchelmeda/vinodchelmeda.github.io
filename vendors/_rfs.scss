@@ -20,10 +20,10 @@
   
   @media screen and (min-width: $lower-range) {
     font-size: $min-font-size;
-    line-height: $min-font-size * 1.5;
+    line-height: $min-font-size  ;
   }
   @media screen and (max-width: $upper-range){
     font-size: $max-font-size;
-    line-height: $max-font-size * 1.5;
+    line-height: $max-font-size  ;
   }
 }
