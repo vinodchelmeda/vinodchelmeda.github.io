@@ -1,18 +1,25 @@
 {
-    "liveSassCompile.settings.formats":[
-       
+    "liveSassCompile.settings.formats": [
+        // This is the default.
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": null
+    
+            // null for all three -> denotes the same path as the SASS file
+            "savePath": null,
+            "savePathSegmentKeys": null,
+            "savePathReplaceSegmentsWith": null
         },
-  
+        // You can add more
         {
             "format": "compressed",
             "extensionName": ".min.css",
+    
+            // / -> denotes relative to the workspace root
             "savePath": "/css"
-        }
-        
+        },
+   
+      
     ],
     "liveSassCompile.settings.excludeList": [
         "**/node_modules/**",
