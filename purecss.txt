@@ -1,0 +1,38 @@
+https://blog.bitsrc.io/4-ways-to-remove-unused-css-647828ca629b
+https://github.com/purifycss/purifycss
+
+Ref Links
+
+UI Screens
+https://codepen.io/havardob/pen/PoJapGX
+https://codepen.io/aaronmcg/pen/GRjaRva
+
+Tabs
+https://codepen.io/renatorib/pen/MWMoNQ
+https://codepen.io/havardob/pen/ExVaELV
+https://codepen.io/nenadkaevik/pen/odyrGm
+https://codepen.io/aaroniker/pen/pezemX
+https://codepen.io/mikestreety/pen/yVNNNm
+https://codepen.io/andytran/pen/zvMGXr
+
+Modal
+https://codepen.io/wendave/pen/bweVqW
+
+Accordion 
+https://codepen.io/raubaca/pen/PZzpVe
+
+Login
+https://codepen.io/andytran/pen/GpyKLM
+
+FAQ's
+https://codepen.io/kathykato/pen/MoZJom
+
+Checkbox's
+https://codepen.io/havardob/pen/BapJYMg
+
+Toaster
+https://codepen.io/veronicadev/pen/LrZaov
+
+Dropmenu // Completed
+https://codepen.io/drehimself/pen/zPNOOg
+https://codepen.io/gyopiazza/pen/LZXRaV
