@@ -82,3 +82,62 @@ box-sizing: border-box;
  
   
 }
+
+// ******************************** Mixins tooltip's *****************************/
+ 
+@mixin applyColor($color:$tooltipColor, $textColor:$tooltipTextColor) {
+  @each $position in top, bottom, left, right {
+    &.simptip-position-#{$position}{
+      &:before{border-#{$position}-color: $color;}
+      &:after{background-color: $color; color: $textColor;}
+    }
+  }
+  @each $position in top, bottom {
+    &.simptip-position-#{$position} {
+      &.half-arrow {
+        &:before {border-right: $arrowSize+1px solid $color;}
+      }
+    }
+  }
+}
+
+@mixin border-radius($radius: 4px) {
+  -webkit-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model;
+     -moz-box-sizing: $box-model;
+          box-sizing: $box-model;
+}
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
+
+@mixin fade ($duration: 0.2s) {
+  @include transition(opacity $duration linear, visibility $duration linear);
+}
+
+@mixin transform($string){
+  -webkit-transform: $string;
+     -moz-transform: $string;
+      -ms-transform: $string;
+       -o-transform: $string;
+          transform: $string;
+}
+
+//generate multiline tooltips
+@mixin multiline ($width: 150px, $align: left) {
+  height: auto;
+  width: $width;
+  padding: $tooltipHeight/2;
+  line-height: $tooltipHeight - 3px;
+  white-space: normal;
+  text-align: $align;
+}
