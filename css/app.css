@@ -13095,3 +13095,7 @@ section {
   height: 100vh;
   margin: 0 auto;
 }
+
+.sidebar-menu {
+  background-color: blue;
+}
